@@ -16,3 +16,31 @@ print(release_year_dict["Bat Out of Hell"])
 print(release_year_dict.keys())
 # Accessing the values of the dictionary using .values() function
 print(release_year_dict.values())
+# Let's add an entry for lionkey which was released in 
+dictionary["The Lion King"] = 1994
+print(dictionary["The Lion King"])
+del(dictionary["The Lion King"])
+print("The Lion King" in dictionary)
+
+# Question sample dictionary
+
+soundtrack_dic = {"The Bodyguard":"1992", "Saturday Night Fever":"1977"}
+soundtrack_dic 
+
+# In the above dictionary what are the keys 
+
+
+
+
+
+# What are the values 
+
+
+psvita={"Product Name":"Psvita","Product Type":"Handheld Console","Compnay":"Sony"}
+laptop1={"Product Name":"Victus","Product Type":"Gaming Laptop","Compnay":"Hp"}
+laptop2={"Product Name":"GF63 Thin","Product Type":"Gaming Laptop","Compnay":"MSI"}
+Product={}
+Product["Product 1"]=psvita
+Product["Product 2"]=laptop1
+Product["Product 3"]=laptop2
+print(Product["Product 1"]["Product Name"])
